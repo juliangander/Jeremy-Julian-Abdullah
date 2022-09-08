@@ -1,0 +1,71 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "resource1",
+      "path": "kundenpunktlichkeit%2Dtag%2Dcsv%2Ecsv.txt",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Datum",
+            "type": "date",
+            "format": "YYYY-MM-DD",
+            "title": "Datum"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "format": "default",
+            "title": "Region",
+            "description": "Restrict ourself to NETZ only."
+          },
+          {
+            "name": "Kundenpünktlichkeit KPP",
+            "type": "integer",
+            "format": "default",
+            "title": "Kundengewichtete Pünktlichkeit"
+          },
+          {
+            "name": "KPP FV",
+            "type": "integer",
+            "format": "default",
+            "title": "Kundenpünktlichkeit Fernverkehr"
+          },
+          {
+            "name": "KPP RV",
+            "type": "integer",
+            "format": "default",
+            "title": "Kundenpünktlichkeit Regionalverkehr"
+          },
+          {
+            "name": "KAP",
+            "type": "integer",
+            "format": "default",
+            "title": "Kundengewichtete Ankunftspünktlichkeit"
+          },
+          {
+            "name": "KAP FV",
+            "type": "integer",
+            "format": "default",
+            "title": "Kundengewichtete Ankunftspünktlichkeit Fernverkehr"
+          },
+          {
+            "name": "KAP RV",
+            "type": "integer",
+            "format": "default",
+            "title": "Kundengewichtete Ankunftspünktlichkeit Regionalverkehr"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "kundenpünktlichkeit-sbb",
+  "title": "Kundenpünktlichkeit SBB",
+  "licenses": [
+    {
+      "title": "NonCommercialAllowed-CommercialAllowed-ReferenceRequired",
+      "path": "https://data.sbb.ch/explore/dataset/kundenpunktlichkeit-tag/information/?sort=kpp_fv"
+    }
+  ]
+}
