@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "resource1",
-      "path": "kundenpunktlichkeit.csv",
+      "path": "sbb-punctuality.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
