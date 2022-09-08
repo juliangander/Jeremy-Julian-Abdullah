@@ -3,7 +3,7 @@
   "resources": [
     {
       "name": "resource1",
-      "path": "kundenpunktlichkeit%2Dtag%2Dcsv%2Ecsv.txt",
+      "path": "kundenpunktlichkeit.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
@@ -65,7 +65,7 @@
   "licenses": [
     {
       "title": "NonCommercialAllowed-CommercialAllowed-ReferenceRequired",
-      "path": "https://data.sbb.ch/explore/dataset/kundenpunktlichkeit-tag/information/?sort=kpp_fv"
+      "path": "https://data.sbb.ch/page/licence"
     }
   ]
 }
