@@ -1,0 +1,87 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "sbb-punctuality",
+      "path": "sbb-punctuality.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Datum",
+            "type": "date",
+            "format": "YYYY-MM-DD",
+            "title": "Date",
+            "description": "Format - YYYY-MM-DD"
+          },
+          {
+            "name": "Region",
+            "type": "string",
+            "format": "default",
+            "description": "NETZ = all regions",
+            "title": "Region"
+          },
+          {
+            "name": "Kundenpünktlichkeit KPP",
+            "type": "number",
+            "format": "default",
+            "description": "Customer-weighted punctuality"
+          },
+          {
+            "name": "KPP FV",
+            "type": "number",
+            "format": "default",
+            "description": "Customer punctuality long-distance"
+          },
+          {
+            "name": "KPP RV",
+            "type": "number",
+            "format": "default",
+            "description": "Customer punctuality regional transport"
+          },
+          {
+            "name": "KAP",
+            "type": "number",
+            "format": "default",
+            "description": "Customer-weighted arrival punctuality"
+          },
+          {
+            "name": "KAP FV",
+            "type": "number",
+            "format": "default",
+            "description": "Customer-weighted arrival punctuality long-distance"
+          },
+          {
+            "name": "KAP RV",
+            "type": "number",
+            "format": "default",
+            "description": "Customer-weighted arrival punctuality regional transport"
+          }
+        ]
+      }
+    },
+    {
+      "name": "resource2",
+      "profile": "tabular-data-resource",
+      "schema": {}
+    }
+  ],
+  "title": "SBB-Punctuality Data",
+  "name": "sbb-punctuality",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "SBB Personenverkehr",
+      "role": "author"
+    }
+  ],
+  "description": "Data Skills Module Project [Julian, Jeremy, Abdullah]\n\nContact name -\nAnsprechsstelle für Daten\n\nContact email-\ndata@sbb.ch",
+  "homepage": "https://data.sbb.ch/explore/dataset/kundenpunktlichkeit-tag/information/",
+  "version": "1.0.1"
+}
