@@ -59,11 +59,6 @@
           }
         ]
       }
-    },
-    {
-      "name": "resource2",
-      "profile": "tabular-data-resource",
-      "schema": {}
     }
   ],
   "title": "SBB-Punctuality Data",
